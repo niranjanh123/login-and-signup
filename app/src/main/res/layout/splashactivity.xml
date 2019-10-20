@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/design_default_color_primary_dark"
+    android:orientation="vertical">
+
+    <!--<VideoView-->
+        <!--android:layout_width="415dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/video"-->
+        <!--tools:ignore="InvalidId"-->
+        <!--android:layout_gravity="center_horizontal"/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#00ff001C"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/button1"-->
+        <!--tools:ignore="InvalidId" />-->
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:padding="10sp"
+        android:src="@mipmap/coffeelogo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Welcome"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        />
+
+
+
+</LinearLayout>
